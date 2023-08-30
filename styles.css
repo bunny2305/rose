@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9e6ea; /* Romantic color */
+}
+
+.card {
+    text-align: center;
+}
+
+.card-image {
+    width: 300px;
+    height: 400px;
+    background-color: #ffc3d6; /* Lighter shade */
+    background-image: url('card-background.jpg'); /* Replace with your card image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.card-image:hover {
+    transform: scale(1.05);
+}
+
+.message {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6b6b; /* Romantic color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.button:hover {
+    background-color: #ff4f4f; /* Darker shade */
+}
+
+.emoji {
+    font-size: 3rem;
+    margin-top: 20px;
+}
